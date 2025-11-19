@@ -1,0 +1,58 @@
+# ---- Java ----
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven / Gradle / Build
+.target/
+target/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- Node / JavaScript ----
+node_modules/
+*.log
+npm-debug.log*
+yarn-error.log*
+coverage/
+**/coverage/
+stryker-report/
+mutation/
+reports/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.tmp
+.build/
+.venv/
+venv/
+ENV/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ---- Stryker HTML ----
+**/mutation.html
+**/mutation/**
+**/stryker-teste/reports/**
+
+# ---- PITest Reports ----
+**/pit-reports/**
+
+# ---- Misc ----
+*.iml
+*.out
+*.tmp
+
+# Allow README and configs
+!.gitignore
