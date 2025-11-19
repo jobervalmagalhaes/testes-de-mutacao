@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "npm run clean && jest --coverage",
+    "clean": "node -e \"require('fs').rmSync('.stryker-tmp', {recursive: true, force: true})\""
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.3.0",
+    "@stryker-mutator/jest-runner": "^9.3.0",
+    "jest": "^30.2.0"
+  }
+}
